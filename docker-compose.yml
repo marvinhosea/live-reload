@@ -1,0 +1,8 @@
+services:
+  # You can specify multiple services here like MySQL, PostgreSQL, Other Microservices, etc.
+  app:
+    image: cosmtrek/air
+    working_dir: /app
+    volumes:
+      - ./:/app
+    
